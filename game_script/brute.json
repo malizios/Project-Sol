@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Monarch Goblin",
+    "symbol": "Attack",
+    "text": "Deep in the mountains of Brine, the monarch goblin presides over all other goblins.",
+    "effect": "Other goblins gain +1/+1 ATK/DEF",
+    "hp": 6,
+    "atk": 7,
+    "def": 2,
+    "cost": 10,
+    "point_value": 8,
+    "sellback": 6
+  },
+  {
+    "name": "Goblin Knight",
+    "symbol": "Attack",
+    "text": "He has no honor, but he does have a large sword.",
+    "effect": "None",
+    "hp": 7,
+    "atk": 4,
+    "def": 5,
+    "cost": 8,
+    "point_value": 6,
+    "sellback": 3
+  },
+  {
+    "name": "Raging Troll",
+    "symbol": "Attack",
+    "text": "The trolls of Brine have long been a bane of friend and foe.",
+    "effect": "Focus Rage – Wait one turn to temporarily get +2 ATK.  Cost: 100",
+    "hp": 6,
+    "atk": 6,
+    "def": 2,
+    "cost": 7,
+    "point_value": 5,
+    "sellback": 4
+  },
+  {
+    "name": "Crude Wall",
+    "symbol": "Defense",
+    "text": "Even goblins can build defenses…",
+    "effect": "+2 DEF on main",
+    "hp": 4,
+    "atk": "None",
+    "def": "None",
+    "cost": 4,
+    "point_value": 4,
+    "sellback": 1
+  },
+  {
+    "name": "Goblin Fodder",
+    "symbol": "Resource",
+    "text": "Some say it is the food that goblins eat that make them so irritable.",
+    "effect": "+75 resource per turn",
+    "hp": 3,
+    "atk": "None",
+    "def": "None",
+    "cost": 4,
+    "point_value": 4,
+    "sellback": 1
+  },
+  {
+    "name": "Murky Pit",
+    "symbol": "Trap",
+    "text": "It is best to walk carefully in the lands of goblins.",
+    "effect": "The attacker that activates this card is suspended from play for 2 turns",
+    "hp": 4,
+    "atk": "None",
+    "def": "None",
+    "cost": 4,
+    "point_value": 2,
+    "sellback": 1
+  },
+  {
+    "name": "Mountain Scrub",
+    "symbol": "Attack",
+    "text": "Weak but irate, scrubs attack without prejudice.",
+    "effect": "None",
+    "hp": 4,
+    "atk": 3,
+    "def": 2,
+    "cost": 2,
+    "point_value": 1,
+    "sellback": 1
+  },
+  {
+    "name": "Goblin Pyromancer",
+    "symbol": "Attack",
+    "text": "Fire-bolt!",
+    "effect": "None",
+    "hp": 5,
+    "atk": 5,
+    "def": 3,
+    "cost": 4,
+    "point_value": 3,
+    "sellback": 2
+  },
+  {
+    "name": "Rock Shield",
+    "symbol": "Defense",
+    "text": "A makeshift defense made of stones stuck together with tar.",
+    "effect": "Equip to an attacker to increase their defense by 2.",
+    "hp": "None",
+    "atk": "None",
+    "def": "None",
+    "cost": 3,
+    "point_value": 1,
+    "sellback": 1
+  },
+  {
+    "name": "Pig Butcher",
+    "symbol": "Attack",
+    "text": "It’s a pig… with a cleaver.",
+    "effect": "None",
+    "hp": 6,
+    "atk": 7,
+    "def": 3,
+    "cost": 6,
+    "point_value": 4,
+    "sellback": 3
+  }
+]
