@@ -62,3 +62,31 @@ module.exports.Hand = class Hand {
     };
   }
 }
+
+module.exports.Field = class Field {
+//2 sides for each, keep track of each field
+//arrays to hold the cards?
+
+//player 1 cards
+	//attack monsters
+	//trap cards
+	//resource
+	//defense
+//player 2 cards
+	//attack monsters
+	//trap cards
+	//resource
+	//defense
+
+//Needed methods
+//playcard - bring card to field
+//discardcard - remove card from field to deck
+//killcard -- remove card from field to graveyard/card heaven
+//cardeffect - apply effects from one card to another depending on action?
+//multiplecardeffect - apply effects from one card to multiple cards?
+//separate methods for different effects?
+	//attack effect for example?
+
+
+
+}
