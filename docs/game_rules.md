@@ -28,7 +28,7 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 
 - In the *player*'s *deck*
 - In the *player*'s *hand*
-- In the *player*'s *graveyard*
+- In the *player*'s *graveyard* (probably should use a different word for graveyard)
 
 - Cards are put into play on the *field of play* from the *player*'s *hand*
 - Unless a *card* is face-down an opponent can view the *card*'s details
@@ -58,7 +58,7 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 
 - Every *card* can be attacked/destroyed
 - Destroying an opponent's *card* awards the *player* with points
-- Attacking another *player* directly awards the *player* with points
+- Attacking another *player* directly awards the *player* with points (Will think about this)
 - An *attack* *card* on the *field of play* can *attack* any *card* on the *field of play*
 - A *defense* *card* on the *field of play* can *defend* any *card* on the *field of play*
 - An attacking *card* must completely take down another *card*s defense before damaging its HP.
