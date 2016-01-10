@@ -66,6 +66,18 @@ module.exports.Hand = class Hand {
 module.exports.Field = class Field {
 //2 sides for each, keep track of each field
 //arrays to hold the cards?
+  var cardsOnField = [];
+  constructor() {
+
+
+  }
+  this.getCard = () =>{
+    
+  };
+
+
+
+
 
 //player 1 cards
 	//attack monsters
