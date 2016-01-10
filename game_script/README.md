@@ -11,9 +11,3 @@ cd game_script
 npm install
 babel-node scripter.js
 ```
-
-### Having color in the console
-```
-cd game_script
-npm install cli-color
-```
