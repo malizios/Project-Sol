@@ -6,7 +6,9 @@ module.exports.Deck = class Deck {
   constructor(cards) {
     if (cards) this.cards = cards;
     else this.cards = [];
+
     this.addCard = (card) => this.cards = this.cards.concat(card);
+    
     this.removeCard = (index) => this.cards.splice(index, 1);
     
     // Fisher-Yates Shuffle
@@ -24,6 +26,7 @@ module.exports.Deck = class Deck {
         this.cards[i] = t;
       }
     };
+
     this.print = () => {
       console.log("---DECK---");
       this.cards.forEach((card, i) => {
@@ -37,11 +40,14 @@ module.exports.Hand = class Hand {
   constructor(deck) {
     this.cards = [];
     this.deck = deck;
+    
     this.drawCardFromDeck = () => {
       this.cards = this.cards.concat(deck.cards[0]);
       this.deck.removeCard(0);
     };
+   
     this.removeCard = (index) => this.cards.splice(index, 1);;
+    
     this.print = () => {
       console.log("---HAND---");
       this.cards.forEach((card, i) => {
@@ -64,41 +70,31 @@ module.exports.Hand = class Hand {
 }
 
 module.exports.Field = class Field {
-//2 sides for each, keep track of each field
-//arrays to hold the cards?
-  var cardsOnField = [];
-  constructor() {
+    constructor() {
+      //Variables
+      this.cardsOnField = [];
 
+      //Functions
+      this.discardCardFromField = (index) => {
+        card = cardsOnField[index];
+        this.cardsOnField.splice(index,1);
+        return card;
+      };
 
-  }
-  this.getCard = () =>{
-    
-  };
+      this.playCardToField = (card) => {
+        this.cardsOnField.push(card);
+      };
 
+      this.killCardFromField = (index) => {
+        card = cardsOnField[index];
+        this.cardsOnField.splice(index, 1);
+        return card;
+      };
 
+      this.printField = () => {
+        console.log("Cards in field:");
+        console.log(this.cardsOnField);
 
-
-
-//player 1 cards
-	//attack monsters
-	//trap cards
-	//resource
-	//defense
-//player 2 cards
-	//attack monsters
-	//trap cards
-	//resource
-	//defense
-
-//Needed methods
-//playcard - bring card to field
-//discardcard - remove card from field to deck
-//killcard -- remove card from field to graveyard/card heaven
-//cardeffect - apply effects from one card to another depending on action?
-//multiplecardeffect - apply effects from one card to multiple cards?
-//separate methods for different effects?
-	//attack effect for example?
-
-
-
+      }
+    }
 }

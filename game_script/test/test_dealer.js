@@ -42,3 +42,19 @@ describe('Hand', function() {
     expect(myHand.cards).to.be.empty();
   });
 });
+
+describe('Field', function() {
+  it('starts out empty', function() {
+    var myField = new dealer.Field();
+    expect(myField.cardsOnField).to.be.empty();
+  });
+
+  it('can discard card to deck', function() {
+    var myDeck = new dealer.Deck();
+    myDeck.addCard({ "name": "Fairy Queen Mav" });
+    var myHand = new dealer.Hand(myDeck);
+    myHand.drawCardFromDeck();
+    var myField = new dealer.Field();
+    
+  });
+});
