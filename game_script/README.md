@@ -11,3 +11,14 @@ cd game_script
 npm install
 babel-node scripter.js
 ```
+
+### Testing the game
+To run a single test
+```
+npm run test
+```
+
+To watch for changes and test
+```
+npm run test:watch
+```
