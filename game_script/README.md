@@ -11,6 +11,7 @@ cd game_script
 npm install
 babel-node scripter.js
 ```
+Game-state will be recorded in `game_script/scripter_log.txt`
 
 ### Testing the game
 To run a single test
