@@ -4,6 +4,9 @@ var dealer = require('./dealer')
 , readlineSync = require('readline-sync')
 , fs = require('fs');
 
+// For adding color to the console
+var clc = require('cli-color');
+
 const HAND_SIZE = 5;
 const COMMANDS = ['draw', 'discard', 'card-details'];
 
@@ -27,7 +30,7 @@ while(myDeck.cards.length != 0) {
     // Draw
     case 0:
       myHand.drawCardFromDeck();
-      console.log("Cards left in deck: "+ myDeck.cards.length);
+      console.log(clc.cyan("Cards left in deck: "+ myDeck.cards.length));
       break;
     // Discard
     case 1:
