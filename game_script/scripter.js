@@ -1,47 +1,61 @@
 "use strict";
 
-var dealer = require('./dealer')
-, readlineSync = require('readline-sync')
+import {Player} from './dealer';
+
+var readlineSync = require('readline-sync')
 , fs = require('fs');
 
 const HAND_SIZE = 5;
-const COMMANDS = ['draw', 'discard', 'card-details'];
+const COMMANDS = ['play card', 'draw', 'discard from hand', 'discard from field', 'card-details'];
 
 // Initialization
 var path = readlineSync.question("Enter path to deck file:\n");
 console.log("---IMPORTING DECK---");
-var myDeck = new dealer.Deck(JSON.parse(fs.readFileSync(path)));
+var myPlayer = new Player(JSON.parse(fs.readFileSync(path)));
 console.log("---SHUFFLING DECK---");
-myDeck.shuffle();
+myPlayer.shuffle();
 console.log("---CREATING INITIAL HAND---");
-var myHand = new dealer.Hand(myDeck);
 for (var i = 0; i < HAND_SIZE; i++) {
-  myHand.drawCardFromDeck();
+  myPlayer.draw();
 };
 
 // In-Game Loop
-while(myDeck.cards.length != 0) {
-  myHand.print();
+while(myPlayer.deck.cards.length != 0) {
+  myPlayer.print();
   let cmd = readlineSync.keyInSelect(COMMANDS, "Which action?");
   switch(cmd) {
-    // Draw
+    // Play card
     case 0:
-      myHand.drawCardFromDeck();
-      console.log("Cards left in deck: "+ myDeck.cards.length);
+      var index = readlineSync.question("Which card in hand would you like to play?:\n");
+      myPlayer.play(index);
       break;
-    // Discard
+    // Draw
     case 1:
-      var index = readlineSync.question("Which card would you like to discard?:\n");
-      myHand.removeCard(index);
+      myPlayer.draw();
+      console.log("Cards left in deck: "+ myPlayer.deck.cards.length);
       break;
-    // Card Details
+    // Discard from Hand
     case 2:
-      var index = readlineSync.keyInSelect(myHand.cardNames(), "Which card?");
-      myHand.printCard(index);
+      var index = readlineSync.question("Which card in hand would you like to discard?:\n");
+      myPlayer.discardFromHand(index);
       break;
+    // Discard from Field
+    case 3:
+      var index = readlineSync.question("Which card on field would you like to discard?:\n");
+      myPlayer.discardFromField(index);
+      break;
+    // Card in hand Details
+    case 4:
+      var index = readlineSync.keyInSelect(myPlayer.hand.cardNames(), "Which card?");
+      myPlayer.hand.printCard(index);
+      break;
+    // Destroy card on field
+    case 5:
+      var index = readlineSync.question("Which card on field would you like to destroy?:\n");
+      myPlayer.destroy(index);
     // Cancel
     case -1:
-      myDeck.cards = [];
+      myPlayer.deck.cards = [];
       break;
   }
 }
