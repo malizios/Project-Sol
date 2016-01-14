@@ -5,6 +5,9 @@ import {Player} from './dealer';
 var readlineSync = require('readline-sync')
 , fs = require('fs');
 
+// For adding color to the console
+var clc = require('cli-color');
+
 const HAND_SIZE = 5;
 const COMMANDS = ['play card', 'draw', 'discard from hand', 'discard from field', 'card-details'];
 
