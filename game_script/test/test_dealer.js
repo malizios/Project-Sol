@@ -96,11 +96,10 @@ describe('Player', () => {
   });
 
   it('can be initialized with a deck', () => {
-    var myDeck = new Deck([
+    var myPlayer = new Player([
       { "name": "Goblin Monarch" },
       { "name": "Goblin Pyromancer" }
     ]);
-    var myPlayer = new Player(myDeck);
     expect(myPlayer.deck.cards).to.eql([
       { "name": "Goblin Monarch" },
       { "name": "Goblin Pyromancer" }
@@ -108,11 +107,10 @@ describe('Player', () => {
   });
   
   it('can draw a card', () => {
-    var myDeck = new Deck([
+    var myPlayer = new Player([
       { "name": "Goblin Monarch" },
       { "name": "Goblin Pyromancer" }
     ]);
-    var myPlayer = new Player(myDeck);
     myPlayer.draw();
     expect(myPlayer.hand.cards).to.eql([
       { "name": "Goblin Pyromancer" }
@@ -123,11 +121,10 @@ describe('Player', () => {
   });
 
   it('can discard a card from hand', () => {
-    var myDeck = new Deck([
+    var myPlayer = new Player([
       { "name": "Goblin Monarch" },
       { "name": "Goblin Pyromancer" }
     ]);
-    var myPlayer = new Player(myDeck);
     myPlayer.draw();
     myPlayer.draw();
     myPlayer.discardFromHand(1);
@@ -140,10 +137,7 @@ describe('Player', () => {
   });
 
   it('can play a card', () => {
-    var myDeck = new Deck([
-      { "name": "Goblin Monarch" }
-    ]);
-    var myPlayer = new Player(myDeck);
+    var myPlayer = new Player([{ "name": "Goblin Monarch" }]);
     myPlayer.draw();
     myPlayer.play(0);
     expect(myPlayer.field.cards).to.eql([
@@ -153,10 +147,7 @@ describe('Player', () => {
   });
 
   it('can discard a card from field', () => {
-    var myDeck = new Deck([
-      { "name": "Goblin Monarch" }
-    ]);
-    var myPlayer = new Player(myDeck);
+    var myPlayer = new Player([{ "name": "Goblin Monarch" }]);
     myPlayer.draw();
     myPlayer.play(0);
     myPlayer.discardFromField(0);
@@ -167,10 +158,7 @@ describe('Player', () => {
   });
 
   it('can destroy card', () => {
-    var myDeck = new Deck([
-      { "name": "Goblin Monarch" }
-    ]);
-    var myPlayer = new Player(myDeck);
+    var myPlayer = new Player([{ "name": "Goblin Monarch" }]);
     myPlayer.draw();
     myPlayer.play(0);
     myPlayer.destroy(0);
