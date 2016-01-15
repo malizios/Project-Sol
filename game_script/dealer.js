@@ -115,7 +115,21 @@ module.exports.Field = class Field {
       this.print = () => {
         console.log("---FIELD---");
         this.cards.forEach((card, i) => {
-          console.log("["+i+"] "+card.name);
+		  if (card.symbol == "Attack") {
+			  console.log("["+i+"] "+clc.redBright(card.name));
+		  }
+		  else if (card.symbol == "Defense") {
+			  console.log("["+i+"] "+clc.blueBright(card.name));
+		  }
+		  else if (card.symbol == "Resource") {
+			  console.log("["+i+"] "+clc.greenBright(card.name));
+		  }
+		  else if (card.symbol == "Trap") {
+			  console.log("["+i+"] "+clc.magentaBright(card.name));
+		  }
+		  else {
+			  console.log("["+i+"] "+card.name);  
+		  }
         });
       };
 

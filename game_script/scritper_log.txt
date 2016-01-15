@@ -1,0 +1,46 @@
+IMPORTING DECK: .\swarm.json
+DECK: Sworker, Momentum, Burrow Bomb, Swarmite, Retaliate, 
+
+---TURN 0---
+HAND: Chieftain, Swenchmen, Swoldier, Duo, Dog Pile, 
+FIELD: 
+ACTION: played Swenchmen
+
+---TURN 1---
+HAND: Chieftain, Swoldier, Duo, Dog Pile, 
+FIELD: Swenchmen, 
+ACTION: played Swoldier
+
+---TURN 2---
+HAND: Chieftain, Duo, Dog Pile, 
+FIELD: Swenchmen, Swoldier, 
+ACTION: played Duo
+
+---TURN 3---
+HAND: Chieftain, Dog Pile, 
+FIELD: Swenchmen, Swoldier, Duo, 
+ACTION: drew Retaliate
+
+---TURN 4---
+HAND: Chieftain, Dog Pile, Retaliate, 
+FIELD: Swenchmen, Swoldier, Duo, 
+ACTION: drew Swarmite
+
+---TURN 5---
+HAND: Chieftain, Dog Pile, Retaliate, Swarmite, 
+FIELD: Swenchmen, Swoldier, Duo, 
+ACTION: drew Burrow Bomb
+
+---TURN 6---
+HAND: Chieftain, Dog Pile, Retaliate, Swarmite, Burrow Bomb, 
+FIELD: Swenchmen, Swoldier, Duo, 
+ACTION: drew Momentum
+
+---TURN 7---
+HAND: Chieftain, Dog Pile, Retaliate, Swarmite, Burrow Bomb, Momentum, 
+FIELD: Swenchmen, Swoldier, Duo, 
+ACTION: played Momentum
+
+---TURN 8---
+HAND: Chieftain, Dog Pile, Retaliate, Swarmite, Burrow Bomb, 
+FIELD: Swenchmen, Swoldier, Duo, Momentum, 
