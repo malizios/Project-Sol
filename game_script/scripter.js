@@ -110,6 +110,6 @@ while(myPlayer.deck.cards.length != 0) {
 }
 
 // Write log to file
-fs.writeFile('scritper_log.txt', logFile, (err) => {
+fs.writeFile('scripter_log.txt', logFile, (err) => {
  if(err) return console.log(err);
 });
