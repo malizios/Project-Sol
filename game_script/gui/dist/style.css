@@ -1,0 +1,110 @@
+#app {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+.field, .hand {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #C0C0C0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.player {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #BADA55;
+}
+
+.player select {
+  margin-left: .5em;
+}
+
+.deck {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.deck:hover {
+  box-shadow: 0px 0px 20px #F00;
+}
+
+.deck h1 {
+  font-size: .4em;
+  color: black;
+}
+
+.card, .deck {
+  color: white;
+  background-color: white;
+  font-size: 3.5em;
+  width: 3.5em;
+  height: 5.75em;
+  margin: .15em;
+  padding: .15em;
+  border: .05em solid #353535;
+  border-radius: .1em;
+}
+
+.card h1 {
+  font-size: .25em;
+}
+
+.card h1 small {
+  padding-left: .5em;
+  color: #CCCCCC;
+  text-transform: uppercase;
+}
+
+
+.card ul {
+  padding-left: 0;
+  font-size: .2em;
+  list-style: none;
+}
+
+#actions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#actions input, .import input {
+  color: white;
+  background: none;
+  border: solid 1px black;
+  padding: 5px;
+  margin: 5px;
+  transition: background-color .5s ease;
+}
+
+.deck #actions input {
+  color: black;
+}
+
+#actions input:hover, .import input:hover {
+  background-color: rgba(0,0,0,.4);
+}
+
+.#actions input:active .import input:active {
+  background-color: rgba(0,0,0,.75);
+}
+
+.hand .card:hover {
+  box-shadow: 0px 0px 20px #0F0;
+}
+
+.import {
+  background-color: rgba(255,0,0,0.5);
+}

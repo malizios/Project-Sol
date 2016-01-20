@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "Monarch Goblin",
     "symbol": "Attack",
     "text": "Deep in the mountains of Brine, the monarch goblin presides over all other goblins.",
@@ -12,6 +13,7 @@
     "sellback": 6
   },
   {
+    "id": 1,
     "name": "Goblin Knight",
     "symbol": "Attack",
     "text": "He has no honor, but he does have a large sword.",
@@ -24,6 +26,7 @@
     "sellback": 3
   },
   {
+    "id": 2,
     "name": "Goblin Knight",
     "symbol": "Attack",
     "text": "He has no honor, but he does have a large sword.",
@@ -36,6 +39,7 @@
     "sellback": 3
   },
   {
+    "id": 3,
     "name": "Raging Troll",
     "symbol": "Attack",
     "text": "The trolls of Brine have long been a bane of friend and foe.",
@@ -48,6 +52,7 @@
     "sellback": 4
   },
   {
+    "id": 4,
     "name": "Raging Troll",
     "symbol": "Attack",
     "text": "The trolls of Brine have long been a bane of friend and foe.",
@@ -60,6 +65,7 @@
     "sellback": 4
   },
   {
+    "id": 5,
     "name": "Crude Wall",
     "symbol": "Defense",
     "text": "Even goblins can build defenses…",
@@ -72,6 +78,7 @@
     "sellback": 1
   },
   {
+    "id": 6,
     "name": "Crude Wall",
     "symbol": "Defense",
     "text": "Even goblins can build defenses…",
@@ -84,6 +91,7 @@
     "sellback": 1
   },
   {
+    "id": 7,
     "name": "Crude Wall",
     "symbol": "Defense",
     "text": "Even goblins can build defenses…",
@@ -96,6 +104,7 @@
     "sellback": 1
   },
   {
+    "id": 8,
     "name": "Goblin Fodder",
     "symbol": "Resource",
     "text": "Some say it is the food that goblins eat that make them so irritable.",
@@ -108,6 +117,7 @@
     "sellback": 1
   },
   {
+    "id": 9,
     "name": "Goblin Fodder",
     "symbol": "Resource",
     "text": "Some say it is the food that goblins eat that make them so irritable.",
@@ -120,6 +130,7 @@
     "sellback": 1
   },
   {
+    "id": 10,
     "name": "Goblin Fodder",
     "symbol": "Resource",
     "text": "Some say it is the food that goblins eat that make them so irritable.",
@@ -132,6 +143,7 @@
     "sellback": 1
   },
   {
+    "id": 11,
     "name": "Goblin Fodder",
     "symbol": "Resource",
     "text": "Some say it is the food that goblins eat that make them so irritable.",
@@ -144,6 +156,7 @@
     "sellback": 1
   },
   {
+    "id": 12,
     "name": "Goblin Fodder",
     "symbol": "Resource",
     "text": "Some say it is the food that goblins eat that make them so irritable.",
@@ -156,6 +169,7 @@
     "sellback": 1
   },
   {
+    "id": 13,
     "name": "Goblin Fodder",
     "symbol": "Resource",
     "text": "Some say it is the food that goblins eat that make them so irritable.",
@@ -168,6 +182,7 @@
     "sellback": 1
   },
   {
+    "id": 14,
     "name": "Murky Pit",
     "symbol": "Trap",
     "text": "It is best to walk carefully in the lands of goblins.",
@@ -180,6 +195,7 @@
     "sellback": 1
   },
   {
+    "id": 15,
     "name": "Murky Pit",
     "symbol": "Trap",
     "text": "It is best to walk carefully in the lands of goblins.",
@@ -192,6 +208,7 @@
     "sellback": 1
   },
   {
+    "id": 16,
     "name": "Murky Pit",
     "symbol": "Trap",
     "text": "It is best to walk carefully in the lands of goblins.",
@@ -204,6 +221,7 @@
     "sellback": 1
   },
   {
+    "id": 17,
     "name": "Mountain Scrub",
     "symbol": "Attack",
     "text": "Weak but irate, scrubs attack without prejudice.",
@@ -216,6 +234,7 @@
     "sellback": 1
   },
   {
+    "id": 18,
     "name": "Mountain Scrub",
     "symbol": "Attack",
     "text": "Weak but irate, scrubs attack without prejudice.",
@@ -228,6 +247,7 @@
     "sellback": 1
   },
   {
+    "id": 19,
     "name": "Mountain Scrub",
     "symbol": "Attack",
     "text": "Weak but irate, scrubs attack without prejudice.",
@@ -240,6 +260,7 @@
     "sellback": 1
   },
   {
+    "id": 20,
     "name": "Goblin Pyromancer",
     "symbol": "Attack",
     "text": "Fire-bolt!",
@@ -252,6 +273,7 @@
     "sellback": 2
   },
   {
+    "id": 21,
     "name": "Goblin Pyromancer",
     "symbol": "Attack",
     "text": "Fire-bolt!",
@@ -264,6 +286,7 @@
     "sellback": 2
   },
   {
+    "id": 22,
     "name": "Goblin Pyromancer",
     "symbol": "Attack",
     "text": "Fire-bolt!",
@@ -276,6 +299,7 @@
     "sellback": 2
   },
   {
+    "id": 23,
     "name": "Rock Shield",
     "symbol": "Defense",
     "text": "A makeshift defense made of stones stuck together with tar.",
@@ -288,6 +312,7 @@
     "sellback": 1
   },
   {
+    "id": 24,
     "name": "Rock Shield",
     "symbol": "Defense",
     "text": "A makeshift defense made of stones stuck together with tar.",
@@ -300,6 +325,7 @@
     "sellback": 1
   },
   {
+    "id": 25,
     "name": "Pig Butcher",
     "symbol": "Attack",
     "text": "It’s a pig… with a cleaver.",
@@ -312,6 +338,7 @@
     "sellback": 3
   },
   {
+    "id": 26,
     "name": "Pig Butcher",
     "symbol": "Attack",
     "text": "It’s a pig… with a cleaver.",
