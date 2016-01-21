@@ -16,7 +16,7 @@
 - There is a maximum of four *player*s in a game
 - Each *player* starts the game with a *hand* containing five *card*s drawn from their *deck*
 - On the first turn a *player* does not draw a *card*
-- A *player* can choose to discard any *card*s from the *field of play* or their *hand* 
+- A *player* can choose to discard any *card*s from the *field of play* or their *hand*
 at the beginning of their turn. This is called the *discard phase*
 - After the *discard phase* a *player* can draw one *card* from their *deck*
 - A *player* can play as many *card*s as they want from their *hand* as long as they have the *resource*s
@@ -48,27 +48,29 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 ### The Cards
 **Card Types**
 
-- Resource: give *resource*s to a player 
+- Resource: give *resource*s to a player
 - Attack: Attack *card*s on the field or an *players*'s HP
 - Defense: Defend *card*s on the field or a *player*s HP
 - Buff: Augment a *card*s attributes
-- Trap: Applies negative effects to a *player*, *deck*, *hand*, or *card*(s)
+- Trap: *Trap* *card*s apply negative effects to *player*s, the *field*, or a *card*. *Trap* *card*s come in two varieties:
+ - *One-Time-Use*: The *card* is placed on the *field of play* face-down. Once *activated* (flipping the *card* face-up), the *card*s effects take place and the *trap* is *destroyed*. *Activation* may occur at any point during the game.
+ - *Passive*: The *card* *activates* upon entering the *field of play*; the *card*'s effects last until it is destroyed.
 
 **Card Rules**
 
 - Every *card* can be attacked/destroyed
+- A *card* may *attack* or *defend* once per turn.
 - Destroying an opponent's *card* awards the *player* with points
 - Attacking another *player* directly awards the *player* with points (Will think about this)
 - An *attack* *card* on the *field of play* can *attack* any *card* on the *field of play*
 - A *defense* *card* on the *field of play* can *defend* any *card* on the *field of play*
-- An attacking *card* must completely take down another *card*s defense before damaging its HP.
+- An attacking *card* must have a higher attack value than another *card*s defense value to damage its HP.
 - When a *card*s HP is brought down to zero, the *card* is destroyed and sent to the *graveyard*
 
 ### The Resources
 Everything in-game is fueled by resources
 
-- A *card* is brought to the *field of play* by buying that *card*
-- A *card* is kept on the field each turn after it is bought through *maintenance costs* unless it is a *resource* *card*
+- A *card* is brought to the *field of play* by buying that *card* unless it is a *resource* *card*
 - A *player* can discard/sell-back a *card* on the *field of play*, receiving back a small portion of the cost to play that *card*
 - A *resource* *card* can generate or steal *resource*s
 - The maximum *resource* a *player* can accumulate is 20
