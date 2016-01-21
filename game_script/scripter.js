@@ -9,7 +9,7 @@ var readlineSync = require('readline-sync')
 var clc = require('cli-color');
 
 const HAND_SIZE = 5;
-const COMMANDS = ['play card', 'draw', 'discard from hand', 'discard from field', 'card-details'];
+const COMMANDS = ['play card', 'draw', 'discard from hand', 'discard from field', 'card-details', 'destroy'];
 
 //string to hold log
 let logFile = "";
