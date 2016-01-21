@@ -102,6 +102,7 @@ while(myPlayer.deck.cards.length != 0) {
       }
       logFile += "ACTION: destroyed "+myPlayer.field.cards[index].name+"\n";
       myPlayer.destroy(index);
+      break;
     // Cancel
     case -1:
       myPlayer.deck.cards = [];
