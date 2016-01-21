@@ -1,3 +1,4 @@
 node_modules
 coverage
 game_script/scripter_log.txt
+npm-debug.log
