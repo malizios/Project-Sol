@@ -15,13 +15,13 @@
 ### The Players
 - There is a maximum of four *player*s in a game
 - Each *player* starts the game with a *hand* containing five *card*s drawn from their *deck*
-- On the first turn a *player* does not draw a *card*
+- the *player* that starts the first round does not get to *draw* a *card* that round
 - A *player* can choose to discard any *card*s from the *field of play* or their *hand*
 at the beginning of their turn. This is called the *discard phase*
 - After the *discard phase* a *player* can draw one *card* from their *deck*
 - A *player* can play as many *card*s as they want from their *hand* as long as they have the *resource*s
 - A *player* begins a game with 5 *resource*
-- A *player* begins a game with +2 *resource* per turn
+- A *player* begins a game with 0 *resource* per turn (rpt), but gains +1rpt every turn
 
 ### The Field of Play
 For each *player*, *card*s exist in one of three places on the *field of play*:
@@ -49,11 +49,11 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 **Card Types**
 
 - Resource: give *resource*s to a player
-- Attack: Attack *card*s on the field or an *players*'s HP
+- Attack: Attack *card*s on the field or a *players*'s HP
 - Defense: Defend *card*s on the field or a *player*s HP
 - Buff: Augment a *card*s attributes
 - Trap: *Trap* *card*s apply negative effects to *player*s, the *field*, or a *card*. *Trap* *card*s come in two varieties:
- - *One-Time-Use*: The *card* is placed on the *field of play* face-down. Once *activated* (flipping the *card* face-up), the *card*s effects take place and the *trap* is *destroyed*. *Activation* may occur at any point during the game.
+ - *One-Time-Use*: The *card* is placed on the *field of play* face-down. Once *activated* (flipping the *card* face-up), the *card*s effects take place and the *trap* is *destroyed*. *Activation* may occur at any point during the game. Face-down *trap* cards may be *attacked* to flip them face-up (not *activating* them); the *player* may still *activate* them after this.
  - *Passive*: The *card* *activates* upon entering the *field of play*; the *card*'s effects last until it is destroyed.
 
 **Card Rules**
@@ -61,7 +61,8 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 - Every *card* can be attacked/destroyed
 - A *card* may *attack* or *defend* once per turn.
 - Destroying an opponent's *card* awards the *player* with points
-- Attacking another *player* directly awards the *player* with points (Will think about this)
+- Attacking another *player* directly awards the *player* with points
+- A *player* may *attack* an opponent directly only when they don't have *card*s on the field.
 - An *attack* *card* on the *field of play* can *attack* any *card* on the *field of play*
 - A *defense* *card* on the *field of play* can *defend* any *card* on the *field of play*
 - An attacking *card* must have a higher attack value than another *card*s defense value to damage its HP.
