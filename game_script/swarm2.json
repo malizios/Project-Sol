@@ -1,7 +1,7 @@
 [
   {
     "name": "Swarmite",
-	"faction":  "Swarm",
+    "faction":  "Swarm",
     "symbol": "Attack",
     "text": "Swarm starter attack card",
     "effect": "NONE",
@@ -34,7 +34,7 @@
     "hp": 3,
     "atk": 0,
     "def": 0,
-    "cost": 1,
+    "cost": 2,
     "point_value": 5,
     "sellback": 0
   },
@@ -242,7 +242,7 @@
     "hp": 3,
     "atk": 0,
     "def": 0,
-    "cost": 1,
+    "cost": 2,
     "point_value": 5,
     "sellback": 0
   },
@@ -255,7 +255,7 @@
     "hp": 3,
     "atk": 0,
     "def": 0,
-    "cost": 1,
+    "cost": 2,
     "point_value": 5,
     "sellback": 0
   },
@@ -336,5 +336,44 @@
     "cost": 1,
     "point_value": 2,
     "sellback": 1
+  },
+  {
+      "name": "Multiplication",
+      "faction":  "Swarm",
+      "symbol": "Resource",
+      "text": "Mo cards mo money",
+      "effect": "Draw an additional card",
+      "hp": 3,
+      "atk": 0,
+      "def": 0,
+      "cost": 2,
+      "point_value": 2,
+      "sellback": 3
+  },
+  {
+      "name": "Multiplication",
+      "faction":  "Swarm",
+      "symbol": "Resource",
+      "text": "Mo cards mo money",
+      "effect": "Draw an additional card",
+      "hp": 3,
+      "atk": 0,
+      "def": 0,
+      "cost": 2,
+      "point_value": 2,
+      "sellback": 3
+  },
+  {
+      "name": "Multiplication",
+      "faction":  "Swarm",
+      "symbol": "Resource",
+      "text": "Mo cards mo money",
+      "effect": "Draw an additional card",
+      "hp": 3,
+      "atk": 0,
+      "def": 0,
+      "cost": 2,
+      "point_value": 2,
+      "sellback": 3
   }
 ]
