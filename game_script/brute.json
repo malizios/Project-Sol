@@ -349,5 +349,44 @@
     "cost": 6,
     "point_value": 4,
     "sellback": 3
+  },
+  {
+    "id": 27,
+    "name": "Secret Horde",
+    "symbol": "Resource",
+    "text": "Never underestimate the treasures accumulated by the Goblins",
+    "effect": "Draw card",
+    "hp": "none",
+    "atk": "none",
+    "def": "none",
+    "cost": 1,
+    "point_value": 0,
+    "sellback": 0
+  },
+  {
+    "id": 28,
+    "name": "Secret Horde",
+    "symbol": "Resource",
+    "text": "Never underestimate the treasures accumulated by the Goblins",
+    "effect": "Draw card",
+    "hp": "none",
+    "atk": "none",
+    "def": "none",
+    "cost": 1,
+    "point_value": 0,
+    "sellback": 0
+  },
+  {
+    "id": 29,
+    "name": "Secret Horde",
+    "symbol": "Resource",
+    "text": "Never underestimate the treasures accumulated by the Goblins",
+    "effect": "Draw card",
+    "hp": "none",
+    "atk": "none",
+    "def": "none",
+    "cost": 1,
+    "point_value": 0,
+    "sellback": 0
   }
 ]
