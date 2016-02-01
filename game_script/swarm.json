@@ -8,7 +8,7 @@
     "hp": 1,
     "atk": 1,
     "def": 0,
-    "cost": 0,
+    "cost": 1,
     "point_value": 0,
     "sellback": 0
   },
@@ -31,11 +31,11 @@
     "symbol": "Resource",
     "text": "Standard Swarm resource card",
     "effect": "Generate 2 resource per turn",
-    "hp": 3,
+    "hp": 9,
     "atk": 0,
     "def": 0,
-    "cost": 2,
-    "point_value": 5,
+    "cost": 5,
+    "point_value": 3,
     "sellback": 0
   },
   {
@@ -47,8 +47,8 @@
     "hp": 2,
     "atk": 2,
     "def": 0,
-    "cost": 2,
-    "point_value": 5,
+    "cost": 3,
+    "point_value": 3,
     "sellback": 1
   },
   {
@@ -60,7 +60,7 @@
     "hp": 1,
     "atk": 2,
     "def": 0,
-    "cost": 1,
+    "cost": 2,
     "point_value": 2,
     "sellback": 1
   },
@@ -73,7 +73,7 @@
     "hp": 3,
     "atk": 1,
     "def": 0,
-    "cost": 3,
+    "cost": 4,
     "point_value": 2,
     "sellback": 1
   },
@@ -86,7 +86,7 @@
     "hp": 5,
     "atk": 0,
     "def": 0,
-    "cost": 1,
+    "cost": 4,
     "point_value": 2,
     "sellback": 1
   },
@@ -99,7 +99,7 @@
     "hp": 5,
     "atk": 5,
     "def": 3,
-    "cost": 8,
+    "cost": 9,
     "point_value": 8,
     "sellback": 8
   },
@@ -109,10 +109,10 @@
     "symbol": "Attack",
     "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in hand.",
     "effect": "NONE",
-    "hp": 3,
+    "hp": 10,
     "atk": 1,
     "def": 0,
-    "cost": 5,
+    "cost": 6,
     "point_value": 5,
     "sellback": 2
   },
@@ -125,7 +125,7 @@
     "hp": 2,
     "atk": 2,
     "def": 0,
-    "cost": 3,
+    "cost": 4,
     "point_value": 3,
     "sellback": 3
   },
