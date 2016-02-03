@@ -20,7 +20,7 @@
 at the beginning of their turn. This is called the *discard phase*
 - After the *discard phase* a *player* can draw one *card* from their *deck*
 - A *player* can play as many *card*s as they want from their *hand* as long as they have the *resource*s
-- A *player* begins a game with 5 *resource*
+- A *player* begins a game with 10 *resource*
 - A *player* begins a game with 2 *resource per turn* (rpt), but gains +1rpt every turn
 
 ### The Field of Play
