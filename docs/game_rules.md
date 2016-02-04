@@ -50,7 +50,6 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 
 - Resource: give *resource*s to a player
 - Attack: Attack *card*s on the field or a *players*'s HP
-- Defense: Defend *card*s on the field or a *player*s HP
 - Buff: Augment a *card*s attributes
 - Trap: *Trap* *card*s apply negative effects to *player*s, the *field*, or a *card*. *Trap* *card*s come in two varieties:
  - *One-Time-Use*: The *card* is placed on the *field of play* face-down. Once *activated* (flipping the *card* face-up), the *card*s effects take place and the *trap* is *destroyed*. *Activation* may occur at any point during the game.
@@ -59,7 +58,7 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 **Card Rules**
 
 - Every *card* can be attacked/destroyed
-- A *card* may *attack* or *defend* once per turn.
+- A *card* may *attack* or *defend* once per turn except during the first round.
 - A *card* may not *attack* on the turn it was played.
 - Destroying an opponent's *card* awards the *player* with points
 - Attacking another *player* directly awards the *player* with points
