@@ -10,7 +10,7 @@
     "def": 2,
     "cost": 10,
     "point_value": 8,
-    "sellback": 6
+    "sellback": 5
   },
   {
     "id": 1,
@@ -47,22 +47,22 @@
     "hp": 6,
     "atk": 6,
     "def": 2,
-    "cost": 7,
+    "cost": 8,
     "point_value": 5,
     "sellback": 4
   },
   {
     "id": 4,
-    "name": "Raging Troll",
+    "name": "Goblin Brawler",
     "symbol": "Attack",
-    "text": "The trolls of Brine have long been a bane of friend and foe.",
-    "effect": "Focus Rage – Wait one turn to temporarily get +2 ATK",
+    "text": "A goblin that doesn't know how to use weapons",
+    "effect": "None",
     "hp": 6,
-    "atk": 6,
+    "atk": 4,
     "def": 2,
-    "cost": 7,
-    "point_value": 5,
-    "sellback": 4
+    "cost": 5,
+    "point_value": 3,
+    "sellback": 3
   },
   {
     "id": 5,
@@ -105,16 +105,16 @@
   },
   {
     "id": 8,
-    "name": "Goblin Fodder",
+    "name": "Underground Vault",
     "symbol": "Resource",
-    "text": "Some say it is the food that goblins eat that make them so irritable.",
-    "effect": "+2 resource per turn",
+    "text": "GOLD. GOLD EVERYWHERE",
+    "effect": "+3 resource per turn",
     "hp": 6,
     "atk": "None",
-    "def": 2,
-    "cost": 2,
+    "def": 4,
+    "cost": 7,
     "point_value": 4,
-    "sellback": 1
+    "sellback": 4
   },
   {
     "id": 9,
@@ -127,7 +127,7 @@
     "def": 2,
     "cost": 5,
     "point_value": 4,
-    "sellback": 1
+    "sellback": 3
   },
   {
     "id": 10,
@@ -140,7 +140,7 @@
     "def": 2,
     "cost": 5,
     "point_value": 4,
-    "sellback": 1
+    "sellback": 3
   },
   {
     "id": 11,
@@ -153,7 +153,7 @@
     "def": 2,
     "cost": 5,
     "point_value": 4,
-    "sellback": 1
+    "sellback": 3
   },
   {
     "id": 12,
@@ -166,7 +166,7 @@
     "def": 2,
     "cost": 5,
     "point_value": 4,
-    "sellback": 1
+    "sellback": 3
   },
   {
     "id": 13,
@@ -179,7 +179,7 @@
     "def": 2,
     "cost": 5,
     "point_value": 4,
-    "sellback": 1
+    "sellback": 3
   },
   {
     "id": 14,
@@ -192,46 +192,46 @@
     "def": "None",
     "cost": 3,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 0
   },
   {
     "id": 15,
-    "name": "Murky Pit",
-    "symbol": "Trap",
-    "text": "It is best to walk carefully in the lands of goblins.",
-    "effect": "The attacker that activates this card is suspended from play for 2 turns",
-    "hp": 4,
+    "name": "Battle Cry",
+    "symbol": "Buff",
+    "text": "The horde grows stronger",
+    "effect": "select a creature to gain +2ATK while this card is on the field",
+    "hp": 5,
     "atk": "None",
     "def": "None",
     "cost": 3,
-    "point_value": 2,
-    "sellback": 1
+    "point_value": 1,
+    "sellback": 2
   },
   {
     "id": 16,
-    "name": "Murky Pit",
-    "symbol": "Trap",
-    "text": "It is best to walk carefully in the lands of goblins.",
-    "effect": "The attacker that activates this card is suspended from play for 2 turns",
-    "hp": 4,
+    "name": "Battle Cry",
+    "symbol": "Buff",
+    "text": "The horde grows stronger",
+    "effect": "select a creature to gain +2ATK while this card is on the field",
+    "hp": 5,
     "atk": "None",
     "def": "None",
     "cost": 3,
-    "point_value": 2,
-    "sellback": 1
+    "point_value": 1,
+    "sellback": 2
   },
   {
     "id": 17,
-    "name": "Mountain Scrub",
+    "name": "Goblin Mortar",
     "symbol": "Attack",
-    "text": "Weak but irate, scrubs attack without prejudice.",
-    "effect": "None",
+    "text": "Accurate, but not so precise.",
+    "effect": "This creature may attack players directly",
     "hp": 4,
-    "atk": 3,
+    "atk": 2,
     "def": 2,
-    "cost": 3,
-    "point_value": 1,
-    "sellback": 1
+    "cost": 4,
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "id": 18,
@@ -268,7 +268,7 @@
     "hp": 5,
     "atk": 5,
     "def": 3,
-    "cost": 5,
+    "cost": 6,
     "point_value": 3,
     "sellback": 2
   },
@@ -281,7 +281,7 @@
     "hp": 5,
     "atk": 5,
     "def": 3,
-    "cost": 5,
+    "cost": 6,
     "point_value": 3,
     "sellback": 2
   },
@@ -294,7 +294,7 @@
     "hp": 5,
     "atk": 5,
     "def": 3,
-    "cost": 5,
+    "cost": 6,
     "point_value": 3,
     "sellback": 2
   },
@@ -333,7 +333,7 @@
     "hp": 6,
     "atk": 7,
     "def": 3,
-    "cost": 6,
+    "cost": 7,
     "point_value": 4,
     "sellback": 3
   },
@@ -346,7 +346,7 @@
     "hp": 6,
     "atk": 7,
     "def": 3,
-    "cost": 6,
+    "cost": 7,
     "point_value": 4,
     "sellback": 3
   },
