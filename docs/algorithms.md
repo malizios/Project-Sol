@@ -26,3 +26,10 @@ getEffectValue(effect) =>
 
 ### Final Equation
 `sellback = ceil(cost/2)`
+
+## Point Value
+### Variables
+- The *cost* of the card
+
+### Final Equation
+`point_value = ceil(cost/2)`
