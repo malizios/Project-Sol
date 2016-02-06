@@ -3,7 +3,7 @@
 ## Cost
 ### Variables
 - *hp* and *atk* cost about 1/3 of their weight
-- *def* is the most valuable and costs about 1/2 of its weight
+- *def* is the most valuable and costs about 1^1.25 of its weight
 - *effect* has to be translated to a numerical value
 
 ### Effect Value
@@ -19,7 +19,7 @@ getEffectValue(effect) =>
   value += NUM_CARD_EFFECTS
 ```
 ### Final Equation
-`cost = ceil((hp+atk)/3)+ceil(def/2)+getEffectValue(effect)`
+`cost = ceil((hp+atk)/3)+ceil(def^1.25)+getEffectValue(effect)`
 ## Sellback
 ### Variables
 - The *cost* of the card
