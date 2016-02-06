@@ -178,10 +178,10 @@
     "effect": "gives +1 resource, after 3 turns, gives + 3 resource",
     "hp": 8,
     "atk": 0,
-    "def": 1,
+    "def": 2,
     "cost": 5,
-    "point_value": 8,
-    "sellback": 5
+    "point_value": 4,
+    "sellback": 4
   },
   {
     "name": "Enchanted Giant",
