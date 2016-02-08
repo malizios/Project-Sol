@@ -35,7 +35,7 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 - If a *player* wishes to take their *card* out of the *field of play* they must discard that *card*
 
 ### The Deck
-- A deck has a maximum size of 30 *card*s
+- A deck has a maximum size of 40 *card*s
 - A *player* only plays with one *deck* during a match
 - The *deck* must be shuffled before play
 - Discarded *card*s go to the bottom of the *player*'s *deck*
