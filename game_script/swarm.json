@@ -36,7 +36,7 @@
     "def": 0,
     "cost": 5,
     "point_value": 3,
-    "sellback": 0
+    "sellback": 3
   },
   {
     "name": "Burrow Bomb",
@@ -48,8 +48,8 @@
     "atk": 2,
     "def": 0,
     "cost": 3,
-    "point_value": 3,
-    "sellback": 1
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "name": "Swenchmen",
@@ -61,7 +61,7 @@
     "atk": 2,
     "def": 0,
     "cost": 2,
-    "point_value": 2,
+    "point_value": 1,
     "sellback": 1
   },
   {
@@ -75,7 +75,7 @@
     "def": 0,
     "cost": 4,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 2
   },
   {
     "name": "Momentum",
@@ -86,9 +86,9 @@
     "hp": 5,
     "atk": 0,
     "def": 0,
-    "cost": 4,
+    "cost": 3,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 2
   },
   {
     "name": "Chieftain",
@@ -99,9 +99,9 @@
     "hp": 5,
     "atk": 5,
     "def": 3,
-    "cost": 9,
-    "point_value": 8,
-    "sellback": 8
+    "cost": 10,
+    "point_value": 5,
+    "sellback": 5
   },
   {
     "name": "Retaliate",
@@ -113,8 +113,8 @@
     "atk": 1,
     "def": 0,
     "cost": 6,
-    "point_value": 5,
-    "sellback": 2
+    "point_value": 3,
+    "sellback": 3
   },
   {
     "name": "Duo",
@@ -125,9 +125,9 @@
     "hp": 2,
     "atk": 2,
     "def": 0,
-    "cost": 4,
-    "point_value": 3,
-    "sellback": 3
+    "cost": 3,
+    "point_value": 2,
+    "sellback": 2
   },
   {
       "name": "Multiplication",
