@@ -8,9 +8,9 @@
     "hp": 6,
     "atk": 7,
     "def": 2,
-    "cost": 10,
-    "point_value": 8,
-    "sellback": 5
+    "cost": 12,
+    "point_value": 6,
+    "sellback": 6
   },
   {
     "id": 1,
@@ -20,10 +20,10 @@
     "effect": "None",
     "hp": 7,
     "atk": 4,
-    "def": 5,
-    "cost": 8,
-    "point_value": 6,
-    "sellback": 3
+    "def": 2,
+    "cost": 7,
+    "point_value": 4,
+    "sellback": 4
   },
   {
     "id": 2,
@@ -33,10 +33,10 @@
     "effect": "None",
     "hp": 7,
     "atk": 4,
-    "def": 5,
+    "def": 2,
     "cost": 7,
-    "point_value": 6,
-    "sellback": 3
+    "point_value": 4,
+    "sellback": 4
   },
   {
     "id": 3,
@@ -45,10 +45,10 @@
     "text": "The trolls of Brine have long been a bane of friend and foe.",
     "effect": "Focus Rage – Wait one turn to temporarily get +2 ATK",
     "hp": 6,
-    "atk": 6,
-    "def": 2,
-    "cost": 8,
-    "point_value": 5,
+    "atk": 4,
+    "def": 1,
+    "cost": 7,
+    "point_value": 4,
     "sellback": 4
   },
   {
@@ -60,7 +60,7 @@
     "hp": 6,
     "atk": 4,
     "def": 2,
-    "cost": 5,
+    "cost": 6,
     "point_value": 3,
     "sellback": 3
   },
@@ -74,8 +74,8 @@
     "atk": "None",
     "def": "None",
     "cost": 4,
-    "point_value": 4,
-    "sellback": 1
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "id": 6,
@@ -87,8 +87,8 @@
     "atk": "None",
     "def": "None",
     "cost": 4,
-    "point_value": 4,
-    "sellback": 1
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "id": 7,
@@ -100,8 +100,8 @@
     "atk": "None",
     "def": "None",
     "cost": 4,
-    "point_value": 4,
-    "sellback": 1
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "id": 8,
@@ -111,7 +111,7 @@
     "effect": "+3 resource per turn",
     "hp": 6,
     "atk": "None",
-    "def": 4,
+    "def": 3,
     "cost": 7,
     "point_value": 4,
     "sellback": 4
@@ -126,7 +126,7 @@
     "atk": "None",
     "def": 2,
     "cost": 5,
-    "point_value": 4,
+    "point_value": 3,
     "sellback": 3
   },
   {
@@ -139,7 +139,7 @@
     "atk": "None",
     "def": 2,
     "cost": 5,
-    "point_value": 4,
+    "point_value": 3,
     "sellback": 3
   },
   {
@@ -152,7 +152,7 @@
     "atk": "None",
     "def": 2,
     "cost": 5,
-    "point_value": 4,
+    "point_value": 3,
     "sellback": 3
   },
   {
@@ -165,7 +165,7 @@
     "atk": "None",
     "def": 2,
     "cost": 5,
-    "point_value": 4,
+    "point_value": 3,
     "sellback": 3
   },
   {
@@ -178,7 +178,7 @@
     "atk": "None",
     "def": 2,
     "cost": 5,
-    "point_value": 4,
+    "point_value": 3,
     "sellback": 3
   },
   {
@@ -192,7 +192,7 @@
     "def": "None",
     "cost": 3,
     "point_value": 2,
-    "sellback": 0
+    "sellback": 2
   },
   {
     "id": 15,
@@ -204,7 +204,7 @@
     "atk": "None",
     "def": "None",
     "cost": 3,
-    "point_value": 1,
+    "point_value": 2,
     "sellback": 2
   },
   {
@@ -217,7 +217,7 @@
     "atk": "None",
     "def": "None",
     "cost": 3,
-    "point_value": 1,
+    "point_value": 2,
     "sellback": 2
   },
   {
@@ -229,9 +229,9 @@
     "hp": 4,
     "atk": 2,
     "def": 2,
-    "cost": 4,
-    "point_value": 2,
-    "sellback": 2
+    "cost": 6,
+    "point_value": 3,
+    "sellback": 3
   },
   {
     "id": 18,
@@ -241,10 +241,10 @@
     "effect": "None",
     "hp": 4,
     "atk": 3,
-    "def": 2,
+    "def": 1,
     "cost": 3,
-    "point_value": 1,
-    "sellback": 1
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "id": 19,
@@ -254,10 +254,10 @@
     "effect": "None",
     "hp": 4,
     "atk": 3,
-    "def": 2,
+    "def": 1,
     "cost": 3,
-    "point_value": 1,
-    "sellback": 1
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "id": 20,
@@ -267,10 +267,10 @@
     "effect": "None",
     "hp": 5,
     "atk": 5,
-    "def": 3,
-    "cost": 6,
-    "point_value": 3,
-    "sellback": 2
+    "def": 2,
+    "cost": 7,
+    "point_value": 4,
+    "sellback": 4
   },
   {
     "id": 21,
@@ -280,10 +280,10 @@
     "effect": "None",
     "hp": 5,
     "atk": 5,
-    "def": 3,
-    "cost": 6,
-    "point_value": 3,
-    "sellback": 2
+    "def": 2,
+    "cost": 7,
+    "point_value": 4,
+    "sellback": 4
   },
   {
     "id": 22,
@@ -293,10 +293,10 @@
     "effect": "None",
     "hp": 5,
     "atk": 5,
-    "def": 3,
-    "cost": 6,
-    "point_value": 3,
-    "sellback": 2
+    "def": 2,
+    "cost": 7,
+    "point_value": 4,
+    "sellback": 4
   },
   {
     "id": 23,
@@ -308,8 +308,8 @@
     "atk": "None",
     "def": "None",
     "cost": 3,
-    "point_value": 1,
-    "sellback": 1
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "id": 24,
@@ -321,8 +321,8 @@
     "atk": "None",
     "def": "None",
     "cost": 3,
-    "point_value": 1,
-    "sellback": 1
+    "point_value": 2,
+    "sellback": 2
   },
   {
     "id": 25,
@@ -331,11 +331,11 @@
     "text": "It’s a pig… with a cleaver.",
     "effect": "None",
     "hp": 6,
-    "atk": 7,
-    "def": 3,
+    "atk": 6,
+    "def": 2,
     "cost": 7,
     "point_value": 4,
-    "sellback": 3
+    "sellback": 4
   },
   {
     "id": 26,
@@ -344,11 +344,11 @@
     "text": "It’s a pig… with a cleaver.",
     "effect": "None",
     "hp": 6,
-    "atk": 7,
-    "def": 3,
+    "atk": 6,
+    "def": 2,
     "cost": 7,
     "point_value": 4,
-    "sellback": 3
+    "sellback": 4
   },
   {
     "id": 27,
