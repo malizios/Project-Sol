@@ -65,19 +65,6 @@
     "sellback": 1
   },
   {
-    "name": "Dog Pile",
-	"faction":  "Swarm",
-    "symbol": "Attack",
-    "text": "Choose up to three 1 cost attack cards from your hand to make a combined attack.  Cards are destroyed after this use.",
-    "effect": "NONE",
-    "hp": 3,
-    "atk": 1,
-    "def": 0,
-    "cost": 4,
-    "point_value": 2,
-    "sellback": 2
-  },
-  {
     "name": "Momentum",
 	"faction":  "Swarm",
     "symbol": "Resource",
@@ -104,7 +91,7 @@
     "sellback": 5
   },
   {
-    "name": "Retaliate",
+    "name": "Retaliatory Rex",
 	"faction":  "Swarm",
     "symbol": "Attack",
     "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in hand.",
@@ -364,32 +351,6 @@
     "sellback": 1
   },
   {
-    "name": "Dog Pile",
-	"faction":  "Swarm",
-    "symbol": "Attack",
-    "text": "Choose up to three 1 cost attack cards from your hand to make a combined attack.  Cards are destroyed after this use.",
-    "effect": "NONE",
-    "hp": 3,
-    "atk": 1,
-    "def": 0,
-    "cost": 4,
-    "point_value": 2,
-    "sellback": 2
-  },
-  {
-    "name": "Dog Pile",
-	"faction":  "Swarm",
-    "symbol": "Attack",
-    "text": "Choose up to three 1 cost attack cards from your hand to make a combined attack.  Cards are destroyed after this use.",
-    "effect": "NONE",
-    "hp": 3,
-    "atk": 1,
-    "def": 0,
-    "cost": 4,
-    "point_value": 2,
-    "sellback": 2
-  },
-  {
     "name": "Momentum",
 	"faction":  "Swarm",
     "symbol": "Resource",
@@ -455,7 +416,7 @@
     "sellback": 5
   },
   {
-    "name": "Retaliate",
+    "name": "Retaliatory Rex",
 	"faction":  "Swarm",
     "symbol": "Attack",
     "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in hand.",
@@ -481,7 +442,7 @@
     "sellback": 2
   },
   {
-    "name": "Retaliate",
+    "name": "Retaliatory Rex",
 	"faction":  "Swarm",
     "symbol": "Attack",
     "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in hand.",
@@ -500,6 +461,58 @@
     "text": "Team attack!",
     "effect": "Can play another attack card in hand of lesser or equal value to Duo free of cost",
     "hp": 2,
+    "atk": 2,
+    "def": 0,
+    "cost": 3,
+    "point_value": 2,
+    "sellback": 2
+  },
+  {
+    "name": "Rapid Synthesis",
+	"faction":  "Swarm",
+    "symbol": "Resource",
+    "text": "An explosion of productivity.",
+    "effect": "Double resource generation for one turn.  Card is destroyed after use.",
+    "hp": 0,
+    "atk": 0,
+    "def": 0,
+    "cost": 5,
+    "point_value": 0,
+    "sellback": 0
+  },
+  {
+    "name": "Wasp",
+	"faction":  "Swarm",
+    "symbol": "Attack",
+    "text": "Deadly and annoying.",
+    "effect": "None",
+    "hp": 4,
+    "atk": 2,
+    "def": 0,
+    "cost": 3,
+    "point_value": 2,
+    "sellback": 2
+  },
+  {
+    "name": "Wasp",
+	"faction":  "Swarm",
+    "symbol": "Attack",
+    "text": "Deadly and annoying.",
+    "effect": "None",
+    "hp": 4,
+    "atk": 2,
+    "def": 0,
+    "cost": 3,
+    "point_value": 2,
+    "sellback": 2
+  },
+  {
+    "name": "Wasp",
+	"faction":  "Swarm",
+    "symbol": "Attack",
+    "text": "Deadly and annoying.",
+    "effect": "None",
+    "hp": 4,
     "atk": 2,
     "def": 0,
     "cost": 3,
