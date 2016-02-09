@@ -1,0 +1,28 @@
+[
+    {
+	"name":  "TEST",
+	"faction":  "Neutral",
+	"symbol":  "Trap",
+	"text":  "TEST",
+	"effect":  "NONE",
+	"hp":  0,
+	"atk":  0,
+	"def":  0,
+	"cost":  0,
+	"point_value":  0,
+	"sellback":  0
+    },
+    {
+	"name":  "TEST",
+	"faction":  "Neutral",
+	"symbol":  "Trap",
+	"text":  "TEST",
+	"effect":  "NONE",
+	"hp":  0,
+	"atk":  0,
+	"def":  0,
+	"cost":  0,
+	"point_value":  0,
+	"sellback":  0
+    }
+]
