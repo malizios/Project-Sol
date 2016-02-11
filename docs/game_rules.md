@@ -39,6 +39,7 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 - A *player* only plays with one *deck* during a match
 - The *deck* must be shuffled before play
 - Discarded *card*s go to the bottom of the *player*'s *deck*
+- Decks can only be comprised of cards of one faction and the netural card deck
 
 ### The Hand
 - A *player*'s *hand*, in normal play, is not to be shown to other players.
@@ -54,6 +55,10 @@ For each *player*, *card*s exist in one of three places on the *field of play*:
 - Trap: *Trap* *card*s apply negative effects to *player*s, the *field*, or a *card*. *Trap* *card*s come in two varieties:
  - *One-Time-Use*: The *card* is placed on the *field of play* face-down. Once *activated* (flipping the *card* face-up), the *card*s effects take place and the *trap* is *destroyed*. *Activation* may occur at any point during the game.
  - *Passive*: The *card* *activates* upon entering the *field of play*; the *card*'s effects last until it is destroyed.
+
+**Faction Specific Card Abilities**
+- Swarm cards of the same card name may do combined attacks where the card ATK values are added
+  together in a focused attack to a selected card of the opponent.
 
 **Card Rules**
 
