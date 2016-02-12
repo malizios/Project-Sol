@@ -1,6 +1,7 @@
 [
   {
     "name": "Fairy Gold",
+    "faction": "Cunning",
     "symbol": "Resource",
     "text": "",
     "effect": "+ 2 resource per turn, + 3 if card hp below 3",
@@ -9,11 +10,29 @@
     "def": 2,
     "cost": 3,
     "point_value": 5,
-    "sellback": 3
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  },
+  {
+    "name": "Fairy Gold",
+    "faction": "Cunning",
+    "symbol": "Resource",
+    "text": "",
+    "effect": "+ 2 resource per turn, + 3 if card hp below 3",
+    "hp": 5,
+    "atk": 0,
+    "def": 2,
+    "cost": 3,
+    "point_value": 5,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
 
   },
   {
     "name": "Fairy Gold",
+    "faction": "Cunning",
     "symbol": "Resource",
     "text": "",
     "effect": "+ 2 resource per turn, + 3 if card hp below 3",
@@ -22,11 +41,14 @@
     "def": 2,
     "cost": 3,
     "point_value": 5,
-    "sellback": 3
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
 
   },
   {
     "name": "Fairy Gold",
+    "faction": "Cunning",
     "symbol": "Resource",
     "text": "",
     "effect": "+ 2 resource per turn, + 3 if card hp below 3",
@@ -35,24 +57,14 @@
     "def": 2,
     "cost": 3,
     "point_value": 5,
-    "sellback": 3
-
-  },
-  {
-    "name": "Fairy Gold",
-    "symbol": "Resource",
-    "text": "",
-    "effect": "+ 2 resource per turn, + 3 if card hp below 3",
-    "hp": 5,
-    "atk": 0,
-    "def": 2,
-    "cost": 3,
-    "point_value": 5,
-    "sellback": 3
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
 
   },
   {
     "name": "Fairy Squire",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "",
@@ -61,10 +73,13 @@
     "def": 1,
     "cost": 2,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 1,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Squire",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "",
@@ -73,10 +88,13 @@
     "def": 1,
     "cost": 2,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 1,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Squire",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "",
@@ -85,10 +103,13 @@
     "def": 1,
     "cost": 2,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 1,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Squire",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "",
@@ -97,10 +118,13 @@
     "def": 1,
     "cost": 2,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 1,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Squire",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "",
@@ -109,10 +133,13 @@
     "def": 1,
     "cost": 2,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 1,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Knight",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "",
@@ -121,10 +148,13 @@
     "def": 2,
     "cost": 4,
     "point_value": 4,
-    "sellback": 3
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Knight",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "",
@@ -133,10 +163,13 @@
     "def": 2,
     "cost": 4,
     "point_value": 4,
-    "sellback": 3
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Knight",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "",
@@ -145,10 +178,13 @@
     "def": 2,
     "cost": 4,
     "point_value": 4,
-    "sellback": 3
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Queen Mav",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "Other Fairies get +1 attack and -1 cost to play",
@@ -157,10 +193,13 @@
     "def": 4,
     "cost": 10,
     "point_value": 5,
-    "sellback": 4
+    "sellback": 4,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Fairy Queen Mav",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "Other Fairies get +1 attack and -1 cost to play",
@@ -169,10 +208,13 @@
     "def": 4,
     "cost": 10,
     "point_value": 5,
-    "sellback": 4
+    "sellback": 4,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Glowing Mineshaft",
+    "faction": "Cunning",
     "symbol": "Resource",
     "text": "",
     "effect": "gives +1 resource, after 3 turns, gives + 3 resource",
@@ -181,10 +223,13 @@
     "def": 2,
     "cost": 5,
     "point_value": 4,
-    "sellback": 4
+    "sellback": 4,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Enchanted Giant",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "Destroy this card after 4 Turns",
@@ -193,10 +238,13 @@
     "def": 4,
     "cost": 8,
     "point_value": 8,
-    "sellback": 4
+    "sellback": 4,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Sparkling Shackles",
+    "faction": "Cunning",
     "symbol": "Trap",
     "text": "",
     "effect": "Reduce target attack card attack by 2 while this card on field",
@@ -205,10 +253,13 @@
     "def": 1,
     "cost": 5,
     "point_value": 4,
-    "sellback": 2
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Sparkling Shackles",
+    "faction": "Cunning",
     "symbol": "Trap",
     "text": "",
     "effect": "Reduce target attack card attack by 2 while this card on field",
@@ -217,10 +268,13 @@
     "def": 1,
     "cost": 5,
     "point_value": 4,
-    "sellback": 2
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Sparkling Shackles",
+    "faction": "Cunning",
     "symbol": "Trap",
     "text": "",
     "effect": "Reduce target attack card attack by 2 while this card on field",
@@ -229,10 +283,13 @@
     "def": 1,
     "cost": 5,
     "point_value": 4,
-    "sellback": 2
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Pixie Spy",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "This card can attack opponent directly",
@@ -241,10 +298,13 @@
     "def": 0,
     "cost": 2,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Pixie Spy",
+    "faction": "Cunning",
     "symbol": "Attack",
     "text": "",
     "effect": "This card can attack opponent directly",
@@ -253,10 +313,13 @@
     "def": 0,
     "cost": 2,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Mystic Portal",
+    "faction": "Cunning",
     "symbol": "Trap",
     "text": "",
     "effect": "Return attacking monster to owner's hand, destory this after.",
@@ -265,10 +328,13 @@
     "def": 1,
     "cost": 3,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Mystic Portal",
+    "faction": "Cunning",
     "symbol": "Trap",
     "text": "",
     "effect": "Return attacking monster to owner's hand, destory this after.",
@@ -277,10 +343,13 @@
     "def": 1,
     "cost": 3,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Mystic Portal",
+    "faction": "Cunning",
     "symbol": "Trap",
     "text": "",
     "effect": "Return attacking monster to owner's hand, destory this after.",
@@ -289,10 +358,13 @@
     "def": 1,
     "cost": 3,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Market Change",
+    "faction": "Cunning",
     "symbol": "Trap",
     "text": "Its all about supply and demand",
     "effect": "Increase cost of other players monsters by 2 while this card is in play",
@@ -301,11 +373,14 @@
     "def": 0,
     "cost": 5,
     "point_value": 2,
-    "sellback": 1
+    "sellback": 1,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Ethereal Wall",
-    "symbol": "Defense",
+    "faction": "Cunning",
+    "symbol": "Trap",
     "text": "",
     "effect": "If an attack fails to destroy a card, return attacking monster to owner's hand.",
     "hp": 4,
@@ -313,11 +388,14 @@
     "def": 3,
     "cost": 4,
     "point_value": 4,
-    "sellback": 2
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Ethereal Wall",
-    "symbol": "Defense",
+    "faction": "Cunning",
+    "symbol": "Trap",
     "text": "",
     "effect": "If an attack fails to destroy a card, return attacking monster to owner's hand.",
     "hp": 4,
@@ -325,10 +403,13 @@
     "def": 3,
     "cost": 4,
     "point_value": 4,
-    "sellback": 2
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
   },
   {
     "name": "Protection of the Forest",
+    "faction": "Cunning",
     "symbol": "Trap",
     "text": "",
     "effect": "Increase all defense values of your cards by 1",
@@ -337,6 +418,188 @@
     "def": 0,
     "cost": 5,
     "point_value": 4,
-    "sellback": 2
-  }
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  },
+  {
+    "name": "Troll Grunt",
+    "faction": "Cunning",
+    "symbol": "Attack",
+    "text": "",
+    "effect": "",
+    "hp": 2,
+    "atk": 3,
+    "def": 2,
+    "cost": 5,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  },
+  {
+    "name": "Troll Grunt",
+    "faction": "Cunning",
+    "symbol": "Attack",
+    "text": "",
+    "effect": "",
+    "hp": 2,
+    "atk": 3,
+    "def": 2,
+    "cost": 5,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  },
+  {
+    "name": "Troll Grunt",
+    "faction": "Cunning",
+    "symbol": "Attack",
+    "text": "",
+    "effect": "",
+    "hp": 2,
+    "atk": 3,
+    "def": 2,
+    "cost": 5,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  },
+  {
+    "name": "Glittering Barrier",
+    "faction": "Cunning",
+    "symbol": "Trap",
+    "text": "",
+    "effect": "Redirect one attack to any other card in any players field.",
+    "hp": 2,
+    "atk": 0,
+    "def": 2,
+    "cost": 5,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  },
+  {
+    "name": "Glittering Barrier",
+    "faction": "Cunning",
+    "symbol": "Trap",
+    "text": "",
+    "effect": "Redirect one attack to any other card in any players field.",
+    "hp": 2,
+    "atk": 0,
+    "def": 2,
+    "cost": 5,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  },
+  {
+    "name": "Fae Curse",
+    "faction": "Cunning",
+    "symbol": "Trap",
+    "text": "",
+    "effect": "Destroy one card on the field",
+    "hp": 6,
+    "atk": 0,
+    "def": 0,
+    "cost": 6,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  }, 
+  {
+    "name": "Fae Curse",
+    "faction": "Cunning",
+    "symbol": "Trap",
+    "text": "",
+    "effect": "Destroy one card on the field",
+    "hp": 6,
+    "atk": 0,
+    "def": 0,
+    "cost": 6,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  }, 
+  {
+    "name": "Fae Curse",
+    "faction": "Cunning",
+    "symbol": "Trap",
+    "text": "",
+    "effect": "Destroy one card on the field",
+    "hp": 6,
+    "atk": 0,
+    "def": 0,
+    "cost": 6,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  }, 
+  {
+    "name": "Fae Curse",
+    "faction": "Cunning",
+    "symbol": "Trap",
+    "text": "",
+    "effect": "Destroy one card on the field",
+    "hp": 6,
+    "atk": 0,
+    "def": 0,
+    "cost": 6,
+    "point_value": 3,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  }, 
+  {
+    "name": "Enchanted Sword",
+    "faction": "Cunning",
+    "symbol": "Attack",
+    "text": "",
+    "effect": "",
+    "hp": 4,
+    "atk": 6,
+    "def": 0,
+    "cost": 4,
+    "point_value": 2,
+    "sellback": 2,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  }, 
+  {
+    "name": "Enchanted Shield",
+    "faction": "Cunning",
+    "symbol": "Attack",
+    "text": "",
+    "effect": "Once per turn block 1 attack.",
+    "hp": 5,
+    "atk": 1,
+    "def": 3,
+    "cost": 7,
+    "point_value": 4,
+    "sellback": 4,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  }, 
+  {
+    "name": "Enchanted Lance",
+    "faction": "Cunning",
+    "symbol": "Attack",
+    "text": "",
+    "effect": "Attacks pierce through def.",
+    "hp": 4,
+    "atk": 3,
+    "def": 1,
+    "cost": 6,
+    "point_value": 4,
+    "sellback": 3,
+    "one_time_use":  "false",
+    "card_amt_limit":  40
+  }, 
 ]
