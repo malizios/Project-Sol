@@ -1,7 +1,5 @@
 var gulp = require('gulp')
 ,   eslint = require('gulp-eslint')
-,   babel = require('babel-core/register')
-,   mocha = require('gulp-mocha')
 ,   exec = require('child_process').exec;
 
 var paths = {
@@ -20,14 +18,12 @@ gulp.task('install', function (cb) {
 });
 
 // Test the client code
-gulp.task('test-client', function () {
-  return gulp.src(paths.client_test, {read: false})
-    .pipe(mocha({
-      compilers: {
-        js: babel
-      },
-      require: ["./client/test/test-config"]
-    }));
+gulp.task('test-client', function (cb) {
+  exec('cd client & mocha --compilers js:babel/register --recursive --require ./test/test-config.js --recursive', function(err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
 });
 
 // Lint the client code

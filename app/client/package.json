@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
-    "lint": "eslint --ext .js,.jsx, src"
+    "lint": "eslint --ext .js,.jsx, src",
+    "test": "mocha --compilers js:babel/register --recursive --require ./test/test-config.js --recursive"
   },
   "dependencies": {
     "immutable": "^3.7.6",
@@ -22,5 +23,9 @@
     "chai-immutable": "^1.5.3",
     "mocha": "^2.4.5",
     "react-native-cli": "^0.1.10"
-  }
+  },
+  "presets": [
+    "es2015",
+    "react"
+  ]
 }
