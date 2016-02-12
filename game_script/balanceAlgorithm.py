@@ -9,7 +9,7 @@ def main():
     d = int(raw_input("Enter Def: "))
     effect =  int(raw_input("Enter number of effects: "))
 
-    cost = math.ceil(hp + atk) + math.ceil(math.pow(d, 1.25)) + effect
+    cost = math.ceil((hp + atk) / 3.0) + math.ceil(math.pow(d, 1.25)) + effect
     sellback = math.ceil(cost / 2)
     point = math.ceil(cost / 2)
     print "Cost: " + str(cost)
