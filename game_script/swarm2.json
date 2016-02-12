@@ -10,7 +10,9 @@
     "def": 0,
     "cost": 1,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swoldier",
@@ -23,7 +25,9 @@
     "def": 0,
     "cost": 1,
     "point_value": 1,
-    "sellback": 1
+    "sellback": 1,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Sworker",
@@ -36,7 +40,9 @@
     "def": 0,
     "cost": 5,
     "point_value": 3,
-    "sellback": 3
+    "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Burrow Bomb",
@@ -49,7 +55,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swenchmen",
@@ -62,7 +70,9 @@
     "def": 0,
     "cost": 2,
     "point_value": 1,
-    "sellback": 1
+    "sellback": 1,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Momentum",
@@ -75,7 +85,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Chieftain",
@@ -88,20 +100,24 @@
     "def": 3,
     "cost": 10,
     "point_value": 5,
-    "sellback": 5
+    "sellback": 5,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Retaliatory Rex",
 	"faction":  "Swarm",
     "symbol": "Attack",
-    "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in hand.",
+    "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in player's field.",
     "effect": "NONE",
     "hp": 10,
     "atk": 1,
     "def": 0,
     "cost": 6,
     "point_value": 3,
-    "sellback": 3
+    "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Duo",
@@ -114,7 +130,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
       "name": "Multiplication",
@@ -127,7 +145,9 @@
       "def": 0,
       "cost": 2,
       "point_value": 2,
-      "sellback": 3
+      "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
       "name": "Multiplication",
@@ -140,7 +160,9 @@
       "def": 0,
       "cost": 2,
       "point_value": 2,
-      "sellback": 3
+      "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
       "name": "Multiplication",
@@ -153,7 +175,9 @@
       "def": 0,
       "cost": 2,
       "point_value": 2,
-      "sellback": 3
+      "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swarmite",
@@ -166,7 +190,9 @@
     "def": 0,
     "cost": 1,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swoldier",
@@ -179,7 +205,9 @@
     "def": 0,
     "cost": 1,
     "point_value": 1,
-    "sellback": 1
+    "sellback": 1,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swarmite",
@@ -192,7 +220,9 @@
     "def": 0,
     "cost": 1,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swoldier",
@@ -205,7 +235,9 @@
     "def": 0,
     "cost": 1,
     "point_value": 1,
-    "sellback": 1
+    "sellback": 1,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swarmite",
@@ -218,7 +250,9 @@
     "def": 0,
     "cost": 1,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swarmite",
@@ -231,7 +265,9 @@
     "def": 0,
     "cost": 1,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Sworker",
@@ -244,7 +280,9 @@
     "def": 0,
     "cost": 5,
     "point_value": 3,
-    "sellback": 3
+    "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Sworker",
@@ -257,7 +295,9 @@
     "def": 0,
     "cost": 5,
     "point_value": 3,
-    "sellback": 3
+    "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Sworker",
@@ -270,7 +310,9 @@
     "def": 0,
     "cost": 5,
     "point_value": 3,
-    "sellback": 3
+    "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Sworker",
@@ -283,7 +325,9 @@
     "def": 0,
     "cost": 5,
     "point_value": 3,
-    "sellback": 3
+    "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Burrow Bomb",
@@ -296,7 +340,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Burrow Bomb",
@@ -309,7 +355,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swenchmen",
@@ -322,7 +370,9 @@
     "def": 0,
     "cost": 2,
     "point_value": 1,
-    "sellback": 1
+    "sellback": 1,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swenchmen",
@@ -335,7 +385,9 @@
     "def": 0,
     "cost": 2,
     "point_value": 1,
-    "sellback": 1
+    "sellback": 1,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Swenchmen",
@@ -348,7 +400,9 @@
     "def": 0,
     "cost": 2,
     "point_value": 1,
-    "sellback": 1
+    "sellback": 1,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Momentum",
@@ -361,7 +415,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Momentum",
@@ -374,7 +430,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Momentum",
@@ -387,7 +445,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Chieftain",
@@ -400,7 +460,9 @@
     "def": 3,
     "cost": 10,
     "point_value": 5,
-    "sellback": 5
+    "sellback": 5,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Chieftain",
@@ -413,20 +475,24 @@
     "def": 3,
     "cost": 10,
     "point_value": 5,
-    "sellback": 5
+    "sellback": 5,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Retaliatory Rex",
 	"faction":  "Swarm",
     "symbol": "Attack",
-    "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in hand.",
+    "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in player's field.",
     "effect": "NONE",
     "hp": 10,
     "atk": 1,
     "def": 0,
     "cost": 6,
     "point_value": 3,
-    "sellback": 3
+    "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Duo",
@@ -439,20 +505,24 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Retaliatory Rex",
 	"faction":  "Swarm",
     "symbol": "Attack",
-    "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in hand.",
+    "text": "Every time one of your attack cards is destroyed, retaliate with least expensive attack card in player's field.",
     "effect": "NONE",
     "hp": 10,
     "atk": 1,
     "def": 0,
     "cost": 6,
     "point_value": 3,
-    "sellback": 3
+    "sellback": 3,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Duo",
@@ -465,7 +535,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Rapid Synthesis",
@@ -478,7 +550,9 @@
     "def": 0,
     "cost": 5,
     "point_value": 0,
-    "sellback": 0
+    "sellback": 0,
+	"one_time_use":  "true",
+	"card_amt_limit":  1
   },
   {
     "name": "Wasp",
@@ -491,7 +565,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Wasp",
@@ -504,7 +580,9 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   },
   {
     "name": "Wasp",
@@ -517,6 +595,8 @@
     "def": 0,
     "cost": 3,
     "point_value": 2,
-    "sellback": 2
+    "sellback": 2,
+	"one_time_use":  "false",
+	"card_amt_limit":  40
   }
 ]
