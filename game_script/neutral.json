@@ -12,13 +12,13 @@
 	"point_value":  2,
 	"sellback":  2,
 	"one_time_use":  "false",
-	"card_amt_limit":  40  
+	"card_amt_limit":  40
     },
 	{
 	"name": "Nature’s Bounty",
 	"faction":  "Neutral",
 	"symbol": "Resource",
-	"text": "Oh, verdant and lush planes!",
+	"text": "Oh, verdant and lush plains!",
 	"effect": "Add 2 cards to hand",
 	"hp": 0,
 	"atk": 0,
@@ -27,7 +27,7 @@
 	"point_value": 0,
 	"sellback": 0,
 	"one_time_use":  "false",
-	"card_amt_limit":  40 
+	"card_amt_limit":  40
 	},
 	{
 	"name": "Supply Surplus",
@@ -42,7 +42,7 @@
 	"point_value": 0,
 	"sellback": 0,
 	"one_time_use":  "true",
-	"card_amt_limit":  1 
+	"card_amt_limit":  1
 	},
 	{
 	"name": "Hellfire",
@@ -57,7 +57,7 @@
 	"point_value": 0,
 	"sellback": 0,
 	"one_time_use":  "true",
-	"card_amt_limit":  40 
+	"card_amt_limit":  40
 	},
 	{
 	"name": "Health Potion",
@@ -72,7 +72,7 @@
 	"point_value": 0,
 	"sellback": 0,
 	"one_time_use":  "true",
-	"card_amt_limit":  40 
+	"card_amt_limit":  40
 	},
 	{
 	"name": "Healing Potion Experimental Batch XV",
@@ -87,7 +87,7 @@
 	"point_value": 0,
 	"sellback": 0,
 	"one_time_use":  "true",
-	"card_amt_limit":  40 
+	"card_amt_limit":  40
 	},
 	{
 	"name": "Mysterious Golem",
@@ -102,7 +102,7 @@
 	"point_value": 4,
 	"sellback": 4,
 	"one_time_use":  "false",
-	"card_amt_limit":  40 
+	"card_amt_limit":  40
 	},
 	{
 	"name": "Cracked Crystal Ball",
@@ -117,7 +117,7 @@
 	"point_value": 0,
 	"sellback": 0,
 	"one_time_use":  "true",
-	"card_amt_limit":  40 
+	"card_amt_limit":  40
 	},
 	{
 	"name": "Mechanized Legs",
@@ -132,7 +132,7 @@
 	"point_value": 3,
 	"sellback": 3,
 	"one_time_use":  "false",
-	"card_amt_limit":  1 
+	"card_amt_limit":  1
 	},
 	{
 	"name": "Mechanized Torso",
@@ -147,7 +147,7 @@
 	"point_value": 3,
 	"sellback": 3,
 	"one_time_use":  "false",
-	"card_amt_limit":  1 
+	"card_amt_limit":  1
 	},
 	{
 	"name": "Mechanized Arms",
@@ -162,7 +162,7 @@
 	"point_value": 3,
 	"sellback": 3,
 	"one_time_use":  "false",
-	"card_amt_limit":  1 
+	"card_amt_limit":  1
 	},
 	{
 	"name": "Mechanized Head",
@@ -177,7 +177,7 @@
 	"point_value": 3,
 	"sellback": 3,
 	"one_time_use":  "false",
-	"card_amt_limit":  1 
+	"card_amt_limit":  1
 	},
 	{
 	"name": "Recirculation",
@@ -192,6 +192,6 @@
 	"point_value": 0,
 	"sellback": 0,
 	"one_time_use":  "true",
-	"card_amt_limit":  40 
+	"card_amt_limit":  40
 	}
 ]
