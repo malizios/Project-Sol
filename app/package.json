@@ -18,5 +18,8 @@
     "gulp": "^3.9.1",
     "gulp-eslint": "^1.1.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "babel": {
+    "presets": ["es2015", "react"]
+  }
 }
