@@ -20,9 +20,15 @@ $ gulp test
 # Testing client
 $ gulp test-client
 
+# Testing server
+$ gulp test-server
+
 # Linting client/server
 $ gulp lint
 
 # Linting client
 $ gulp lint-client
+
+# Linting server
+$ gulp lint-server
 ```
