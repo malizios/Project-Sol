@@ -1,5 +1,5 @@
-# Untitled Card Game
-*A yet-to-be-named mobile card game in the same vein as Magic the Gathering and Hearthstone.*
+# Project Sol
+*A sci-fi mobile card game in the same vein as Magic the Gathering and Hearthstone.*
 
 ## About
 Collectible card games are strategic, addicting, and fun so we wanted to make one.
