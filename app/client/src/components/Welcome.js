@@ -14,12 +14,12 @@ class Welcome extends React.Component {
 }
 
 var styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'transparent',
-    }
+  container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: 'transparent',
+  }
 });
 
 module.exports = Welcome;
