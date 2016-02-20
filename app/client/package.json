@@ -28,6 +28,9 @@
     "react-native-cli": "^0.1.10"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   }
 }
