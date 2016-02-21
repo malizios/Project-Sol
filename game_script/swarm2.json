@@ -90,21 +90,6 @@
 	"card_amt_limit":  40
   },
   {
-    "name": "Chieftain",
-	"faction":  "Swarm",
-    "symbol": "Attack",
-    "text": "Strong Swarm attack card",
-    "effect": "Can play up to two lesser attack cards in hand free of cost.",
-    "hp": 5,
-    "atk": 5,
-    "def": 3,
-    "cost": 10,
-    "point_value": 5,
-    "sellback": 5,
-	"one_time_use":  "false",
-	"card_amt_limit":  40
-  },
-  {
     "name": "Retaliatory Rex",
 	"faction":  "Swarm",
     "symbol": "Attack",
@@ -462,22 +447,7 @@
     "point_value": 5,
     "sellback": 5,
 	"one_time_use":  "false",
-	"card_amt_limit":  40
-  },
-  {
-    "name": "Chieftain",
-	"faction":  "Swarm",
-    "symbol": "Attack",
-    "text": "Strong Swarm attack card",
-    "effect": "Can play up to two lesser attack cards in hand free of cost.",
-    "hp": 5,
-    "atk": 5,
-    "def": 3,
-    "cost": 10,
-    "point_value": 5,
-    "sellback": 5,
-	"one_time_use":  "false",
-	"card_amt_limit":  40
+	"card_amt_limit":  1
   },
   {
     "name": "Retaliatory Rex",

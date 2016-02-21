@@ -102,7 +102,7 @@
     "point_value": 5,
     "sellback": 5,
 	"one_time_use":  "false",
-	"card_amt_limit":  40
+	"card_amt_limit":  1
   },
   {
     "name": "Retaliatory Rex",
