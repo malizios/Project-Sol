@@ -12,12 +12,20 @@
 
 ## General
 
+### The Phases of a Turn
+1. *Discard Phase*: *player* chooses *card*s in *hand* or *field* to *discard*
+2. *Draw Phase*: *player* *draw*s a *card* from *deck* and puts it in *hand*
+3. *Deploy Phase*: *player* pays *card*(s) *resource* cost and *deploy*s it to the *field*
+4. *Attack Phase*: *player* decides which *card*s *attack*, their order, and their targets
+5. *Response Phase*: If possible, opponent can decide to counter attacks with *trap*s or *trap* effects
+6. *Update Phase*: Depending on successful *attack*s, update the stats of the *card*s on *field*
+7. *Destroy Phase*: If a *card*'s *hp* has been depleted, it is removed from the *field* and put in the *graveyard*, and it's *point value* is added to the *player*'s *points*
+8. *End Phase*: If a game winning condition has been met then the game ends and a victor is declared; otherwise the game transitions to the *opponent*'s turn
+
 ### The Players
 - There is a maximum of four *player*s in a game
 - Each *player* starts the game with a *hand* containing five *card*s drawn from their *deck*
 - the *player* that starts the first round does not get a *draw phase* during that turn
-- A *player* can choose to discard any *card*s from the *field of play* or their *hand*
-at the beginning of their turn. This is called the *discard phase*
 - After the *discard phase* a *player* can draw one *card* from their *deck*
 - A *player* can play as many *card*s as they want from their *hand* as long as they have the *resource*s
 - A *player* begins a game with 10 *resource*
