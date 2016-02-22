@@ -15,7 +15,7 @@
 ### The Players
 - There is a maximum of four *player*s in a game
 - Each *player* starts the game with a *hand* containing five *card*s drawn from their *deck*
-- the *player* that starts the first round does not get to *draw* a *card* that round
+- the *player* that starts the first round does not get a *draw phase* during that turn
 - A *player* can choose to discard any *card*s from the *field of play* or their *hand*
 at the beginning of their turn. This is called the *discard phase*
 - After the *discard phase* a *player* can draw one *card* from their *deck*
