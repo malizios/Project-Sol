@@ -188,7 +188,7 @@
 	"hp": 0,
 	"atk": 0,
 	"def": 0,
-	"cost": 1,
+	"cost": 5,
 	"point_value": 0,
 	"sellback": 0,
 	"one_time_use":  "true",
