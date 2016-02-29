@@ -17,6 +17,7 @@ class welcome extends React.Component {
       <View style={styles.container}>
         <Text>Welcome!</Text>
         <Button onPress={Actions.handleRouteCardApp}>Go to the Counter Example</Button>
+        <Button onPress={Actions.handleRouteCard}>Check out a Card Design</Button>
       </View>
     );
   }
