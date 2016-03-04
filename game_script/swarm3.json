@@ -64,7 +64,7 @@
 	"faction":  "Swarm",
     "symbol": "Attack",
     "text": "Strong Swarm attack card",
-    "effect": "Can play up to two lesser attack cards in hand free of cost.",
+    "effect": "Can play up to two lesser attack cards of swarm faction in hand free of cost.",
     "hp": 5,
     "atk": 5,
     "def": 3,
