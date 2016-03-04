@@ -108,7 +108,7 @@
     "name": "Retaliatory Rex",
 	"faction":  "Swarm",
     "symbol": "Attack",
-    "text": "Every time one of your attack cards is destroyed, retaliate against destroyer with least expensive attack card in player's field.",
+    "text": "Every time one of your attack cards is destroyed, retaliate against destroyer with R.Rex.  Destroyer DEF ignored.",
     "effect": "NONE",
     "hp": 10,
     "atk": 1,
