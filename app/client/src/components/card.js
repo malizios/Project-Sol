@@ -1,22 +1,57 @@
 import React, {View, Text, Image, StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
-  container: {
-    width: 240,
-    height: 336,
-    backgroundColor: "E0E3DA"
+    container: {
+		width: 240,
+		height: 336,
+		backgroundColor: "F0F0F0",
+		borderWidth:  2,
+		borderColor:  'DAA520'
+  },
+  factionIconContainer: {
+    flex: -1,
+    flexDirection: "row",
+	marginBottom:  40,
+	marginLeft:  5,
+  },
+  cardNameContainer:  {
+	flex:  1,  
+	marginBottom:  40,
+	marginLeft:  50,
+	flexDirection:  "row"
   },
   descContainer: {
+	flex:  2,  
     flexDirection: "row",
     alignItems: "center"
   },
-  iconNameContainer: {
-    flex: 1,
-    flexDirection: "row",
-    alignItems: "center"
+  cardText: {
+	flex:  2,   
+	flexDirection: "row",
+	flexWrap:  "wrap",
   },
-  statsContainer: {
-    alignItems: "center",
+  cardEffect: {
+	flex:  2,   
+    marginLeft: 5,
+    marginRight: 5,
+  },
+   hpLoc: {
+	flex:  3,   
+	flexDirection:  "row",
+	alignItems: "center",
+    marginRight: 5
+  },
+  atkLoc: {
+	flex:  3,   
+	flexDirection:  "row",
+	alignItems: "center",
+	flexWrap:  "wrap",
+    marginRight: 5
+  },
+  defLoc: {
+	flex:  3,   
+	flexDirection:  "row",
+	alignItems: "center",
     marginRight: 5
   },
   pictureContainer: {
@@ -31,22 +66,19 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     justifyContent: "space-between"
   },
-  desc: {
-    marginLeft: 5,
-    marginRight: 5,
-  },
   icon: {
-    marginLeft: 5,
-    marginRight: 5,
-    height: 24,
-    width: 24
+	fontSize:  28,
+	fontWeight:  "bold",
+	color:  "FF0000",
   },
   name: {
-    fontSize: 24
+    fontSize: 20
   },
   picture: {
-    height: 175,
-    width: 175
+    height: 150,
+    width: 240,
+	borderWidth:  2,
+	borderColor:  'DAA520'
   },
   hp: {
     color: "55967e"
@@ -56,6 +88,12 @@ const styles = StyleSheet.create({
   },
   def: {
     color: "6a60a9"
+  },
+  vpoint:  {
+	  color: "FF6600"
+  },
+  sellback: {
+	  color: "FF00FF"
   },
   info: {
     fontStyle: "italic"
@@ -67,32 +105,37 @@ class card extends React.Component {
     return (
       <View style={styles.container}>
         <View style={styles.descContainer}>
-          <View style={styles.iconNameContainer}>
-            <Image
-              style={styles.icon}
-              source={{uri: "https://upload.wikimedia.org/wikipedia/commons/3/35/UncialB-01.png"}}
-            />
-            <Text style={styles.name}>Raging Troll</Text>
+          <View style={styles.factionIconContainer}>
+			<Text style={styles.icon}>S</Text>
+		  </View>
+		  <View style={styles.cardNameContainer}>
+            <Text style={styles.name}>Sworker</Text>
           </View>
-          <View style={styles.statsContainer}>
-            <Text style={styles.hp}>6/6</Text>
-            <Text style={styles.atk}>4</Text>
-            <Text style={styles.def}>1</Text>
-          </View>
+		  <View style={styles.cardText}>  //*************FIX VIEWSTYLE HERE************
+			<Text style={styles.info}>Standard Swarm resource generator</Text>
+		  </View>
+			<View style={styles.hpLoc}>
+				<Text style={styles.hp}>9/9</Text>
+			</View>
+			<View style={styles.atkLoc}>
+				<Text style={styles.atk}>0</Text>
+			</View>
+			<View style={styles.defLoc}>
+				<Text style={styles.def}>0</Text>
+			</View>
         </View>
         <View style={styles.pictureContainer}>
           <Image
             style={styles.picture}
-            source={{uri: "http://archive.wizards.com/magic/images/mtgcom/arcana1000/1278_BruteForce.jpg"}}
+            source={{uri: "http://vignette4.wikia.nocookie.net/carbotanimations/images/3/36/Drone.jpg/revision/latest?cb=20151120211652"}}
           />
         </View>
-        <View style={styles.desc}>
-          <Text>Focus Rage – Wait one turn to temporarily get +2 ATK</Text>
-          <Text style={styles.info}>The trolls of Brine have long been a bane of friend and foe.</Text>
-        </View>
+        <View style={styles.cardEffect}>
+			<Text>Generate 2 resource per turn</Text>
+		</View>
         <View style={styles.valueContainer}>
-          <Text>4</Text>
-          <Text>7</Text>
+          <Text style={styles.vpoint}>3</Text>
+          <Text style={styles.sellback}>3</Text>
         </View>
       </View>
     );
